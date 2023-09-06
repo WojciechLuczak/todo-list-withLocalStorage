@@ -1,3 +1,5 @@
+import './index.css';
+
 const Form = () => (
     <form className=" section__form" action="">
                 <input className="section__input" placeholder="Co jest do zrobienia?" type="text"/>

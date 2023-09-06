@@ -1,4 +1,4 @@
-
+import './index.css';
 
 const Tasks = (props) => (
     <ul className="section__list">

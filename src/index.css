@@ -14,73 +14,6 @@ body {
   margin: none;
 }
 
-.container {
-
-  margin-top: 40px;
-  margin-left: 1%;
-  margin-right: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  width: 80%;
-  min-width: 300px;
-}
-
-.section {
-  width: 80%;
-  min-width: 300px;
-}
-
-.section__title {
-  padding: 20px;
-  margin-bottom: 2px;
-  background-color: white;
-  margin-top: 2px;
-}
-
-.section__form {
-  padding: 20px;
-  background-color: white;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.section__list {
-  padding: 20px;
-  background-color: white;
-  margin-top: 0;
-  list-style: none;
-}
-
-.section__input {
-  margin-right: 10px;
-  flex: 1;
-  border: 1px solid #ccc;
-  padding: 5px;
-  height: 40px;
-}
-
-.section__button {
-  max-width: 150px;
-  min-width: 113px;
-  height: 30px;
-  background-color: teal;
-  color: white;
-  border: none;
-  height: 40px;
-}
-
-.section__taskRow {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  padding: 8px;
-  border-bottom: 2px solid #e9e7e7;
-}
 
 .section__iconCheck {
   max-width: 30px;
@@ -98,10 +31,6 @@ body {
 .section__remove {
   border: none;
   background-color: white;
-}
-
-.section__individualTask {
-  cursor: default;
 }
 
 @media screen and (max-width: 650px) {
@@ -162,40 +91,6 @@ body {
   }
 }
 
-.section__toggleTasksDone {
-  background-color: white;
-  border: none;
-  color: teal;
-  transition: 1s;
-}
-
-.section__toggleTasksDone:hover {
-  color: rgb(0, 193, 193);
-}
-
-.section__allDoneButton {
-  background-color: white;
-  border: none;
-  color: teal;
-  transition: 1s;
-}
-
-.section__allDoneButton:hover {
-  color: rgb(0, 193, 193);
-}
-
-.section__hiddenItem {
-  display: none;
-}
-
-.section__titleAndToggleButtons {
-  background-color: white;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .section__toggleButtons {
   background-color: white;
   padding: 20px;
@@ -206,36 +101,6 @@ body {
 
 .js-buttonsTaskList {
   margin-right: 20px;
-}
-
-.section__done {
-  background-color: darkgreen;
-  color: white;
-  margin: 2px;
-  width: 30px;
-  height: 30px;
-  transition: 1s;
-}
-
-.section__remove {
-  background-color: red;
-  color: white;
-  margin: 2px;
-  width: 30px;
-  height: 30px;
-  transition: 1s;
-}
-
-.section__lineThrough {
-  text-decoration: line-through;
-}
-
-.section__done:hover {
-  background-color: rgb(0, 182, 0);
-}
-
-.section__remove:hover {
-  background-color: rgb(255, 108, 108);
 }
 
 button:disabled {
