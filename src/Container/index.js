@@ -1,9 +1,3 @@
-import './index.css';
-
-const Container = ({children}) => (
-    <div className="container">
-{children}
-        </div>
-);
-
+import "./index.css";
+const Container = ({ children }) => <div className="container">{children}</div>;
 export default Container;

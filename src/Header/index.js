@@ -1,10 +1,3 @@
-import './index.css';
-
-const Header = ({title}) => (
-
-<h1 className="title">{title}</h1>
-
-    
-);
-
+import "./index.css";
+const Header = ({ title }) => <h1 className="title">{title}</h1>;
 export default Header;
