@@ -21,4 +21,11 @@
   color: white;
   border: none;
   height: 40px;
+  transition: 1s;
+}
+
+.form__button:hover {
+  transform: scale(1.05);
+  background-color: rgb(17, 174, 174);
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

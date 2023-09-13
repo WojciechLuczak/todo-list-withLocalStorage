@@ -1,12 +1,12 @@
 import "./index.css";
 const Form = () => (
-  <form className=" section__form" action="">
+  <form className="form" action="">
     <input
-      className="section__input"
+      className="form__input"
       placeholder="Co jest do zrobienia?"
       type="text"
     />
-    <button className="section__button">Dodaj zadanie</button>
+    <button className="form__button">Dodaj zadanie</button>
   </form>
 );
 export default Form;
