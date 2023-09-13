@@ -1,28 +1,16 @@
-.section__titleAndToggleButtons {
+.buttons {
   background-color: white;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.section__toggleTasksDone {
+.buttons__changer {
   background-color: white;
   border: none;
   color: teal;
   transition: 1s;
 }
 
-.section__toggleTasksDone:hover {
-  color: rgb(0, 193, 193);
-}
-
-.section__allDoneButton {
-  background-color: white;
-  border: none;
-  color: teal;
-  transition: 1s;
-}
-
-.section__allDoneButton:hover {
+.buttons__changer:hover {
   color: rgb(0, 193, 193);
 }

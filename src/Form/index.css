@@ -1,11 +1,11 @@
-.section__form {
+.form {
   padding: 20px;
   background-color: white;
   display: flex;
   justify-content: flex-start;
 }
 
-.section__input {
+.form__input {
   margin-right: 10px;
   flex: 1;
   border: 1px solid #ccc;
@@ -13,7 +13,7 @@
   height: 40px;
 }
 
-.section__button {
+.form__button {
   max-width: 150px;
   min-width: 113px;
   height: 30px;

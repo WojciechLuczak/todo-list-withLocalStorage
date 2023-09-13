@@ -1,24 +1,24 @@
 import "./index.css";
 const Tasks = (props) => (
-  <ul className="section__list">
+  <ul className="tasks__list">
     {props.tasks.map((task) => (
       <li
         className={`${
           props.hideDoneTasks === true && task.done
-            ? "section__hiddenItem "
+            ? "tasks__hiddenItem "
             : ""
-        }section__taskRow `}
+        }tasks__taskRow `}
       >
-        <button className={`section__done`}>{task.done ? "✔" : ""}</button>
+        <button className={`tasks__done`}>{task.done ? "✔" : ""}</button>
         <span
-          className={`section__individualTask ${
-            task.done ? "section__lineThrough" : ""
+          className={`tasks__individualTask ${
+            task.done ? "tasks__lineThrough" : ""
           }`}
         >
           {" "}
           {task.content}{" "}
         </span>
-        <button className={`section__remove`}>🗑</button>
+        <button className={`tasks__remove`}>🗑</button>
       </li>
     ))}
   </ul>

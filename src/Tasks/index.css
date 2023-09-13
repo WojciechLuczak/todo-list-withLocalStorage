@@ -1,11 +1,11 @@
-.section__list {
+.tasks__list {
   padding: 20px;
   background-color: white;
   margin-top: 0;
   list-style: none;
 }
 
-.section__taskRow {
+.tasks__taskRow {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -13,11 +13,11 @@
   border-bottom: 2px solid #e9e7e7;
 }
 
-.section__hiddenItem {
+.tasks__hiddenItem {
   display: none;
 }
 
-.section__done {
+.tasks__done {
   background-color: darkgreen;
   color: white;
   margin: 2px;
@@ -26,7 +26,7 @@
   transition: 1s;
 }
 
-.section__remove {
+.tasks__remove {
   background-color: red;
   color: white;
   margin: 2px;
@@ -35,18 +35,18 @@
   transition: 1s;
 }
 
-.section__lineThrough {
+.tasks__lineThrough {
   text-decoration: line-through;
 }
 
-.section__done:hover {
+.tasks__done:hover {
   background-color: rgb(0, 182, 0);
 }
 
-.section__remove:hover {
+.tasks__remove:hover {
   background-color: rgb(255, 108, 108);
 }
 
-.section__individualTask {
+.tasks__individualTask {
   cursor: default;
 }
