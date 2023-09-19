@@ -1,17 +1,17 @@
 import "./index.css";
 
-const Buttons = ({ tasks, hideDone }) => {
+const Buttons = ({ tasks, hideDone, toggleHideDone }) => {
   if (tasks.length === 0) {
     return null;
   }
 
   return (
     <div className="buttons">
-      <button className="buttons__changer">
+      <button onClick={toggleHideDone} className="buttons__changer">
         {hideDone ? "Pokaż ukończone" : "Ukryj ukończone"}
       </button>
 
-      <button
+      <button 
         className="buttons__changer"
         disabled={tasks.every((task) => task.done)}
       >
