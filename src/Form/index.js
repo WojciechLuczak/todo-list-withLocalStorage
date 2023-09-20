@@ -1,9 +1,13 @@
 import React, {useState} from "react";
 import "./index.css";
-const Form = () => {
-const [newTaskContent, setNewTaskContent] = useState("");
+const Form = ({addNewTask}) => {
+
+  const [newTaskContent, setNewTaskContent] = useState("");
+
 const onFormSubmit= (event) => {
   event.preventDefault();
+  addNewTask(newTaskContent.trim());
+  setNewTaskContent("");
 };
   return (
     <form className="form" onSubmit={onFormSubmit}>
