@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
@@ -9,7 +9,7 @@ import Container from "./Container";
 function App() {
   const [hideDone, setHideDone] = useState(false);
 
-const tasksFromLocalStarage = localStorage.getItem("tasks");
+const tasksFromLocalStorage = localStorage.getItem("tasks");
 
   const [tasks, setTasks] = useState(
     tasksFromLocalStorage
