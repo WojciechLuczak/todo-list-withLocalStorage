@@ -1,8 +1,9 @@
 import React from "react";
 import "./index.css";
+import {TasksList } from "./styled";
 
 const Tasks = ({tasks, hideDone, removeTask, toggleTaskDone}) => (
-  <ul className="tasks__list">
+  <TasksList>
     {tasks.map((task) => (
       <li
         className={`${
@@ -28,6 +29,6 @@ const Tasks = ({tasks, hideDone, removeTask, toggleTaskDone}) => (
         >🗑</button>
       </li>
     ))}
-  </ul>
+  </TasksList>
 );
 export default Tasks;
