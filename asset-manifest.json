@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WojciechLuczak/todo-list-withLocalStorage/static/css/main.2b2f3b37.css",
-    "main.js": "/WojciechLuczak/todo-list-withLocalStorage/static/js/main.f8641e90.js",
-    "static/js/787.8034f5a4.chunk.js": "/WojciechLuczak/todo-list-withLocalStorage/static/js/787.8034f5a4.chunk.js",
-    "index.html": "/WojciechLuczak/todo-list-withLocalStorage/index.html",
-    "main.2b2f3b37.css.map": "/WojciechLuczak/todo-list-withLocalStorage/static/css/main.2b2f3b37.css.map",
-    "main.f8641e90.js.map": "/WojciechLuczak/todo-list-withLocalStorage/static/js/main.f8641e90.js.map",
-    "787.8034f5a4.chunk.js.map": "/WojciechLuczak/todo-list-withLocalStorage/static/js/787.8034f5a4.chunk.js.map"
+    "main.css": "/todo-list-withLocalStorage/static/css/main.2e49f7da.css",
+    "main.js": "/todo-list-withLocalStorage/static/js/main.2489a1cf.js",
+    "static/js/787.af56834f.chunk.js": "/todo-list-withLocalStorage/static/js/787.af56834f.chunk.js",
+    "index.html": "/todo-list-withLocalStorage/index.html",
+    "main.2e49f7da.css.map": "/todo-list-withLocalStorage/static/css/main.2e49f7da.css.map",
+    "main.2489a1cf.js.map": "/todo-list-withLocalStorage/static/js/main.2489a1cf.js.map",
+    "787.af56834f.chunk.js.map": "/todo-list-withLocalStorage/static/js/787.af56834f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b2f3b37.css",
-    "static/js/main.f8641e90.js"
+    "static/css/main.2e49f7da.css",
+    "static/js/main.2489a1cf.js"
   ]
 }
