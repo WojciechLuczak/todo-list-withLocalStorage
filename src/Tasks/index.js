@@ -1,5 +1,5 @@
 import React from "react";
-import {List, Item, Content, Button } from "./styled";
+import {List, Item, Content, Button } from "./styled.js";
 
 const Tasks = ({tasks, hideDone, removeTask, toggleTaskDone}) => (
   <List>

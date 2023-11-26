@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Buttons = styled.button`
+export const Buttons = styled.div`
  background-color: white;
     display: flex;
     justify-content: space-between;
