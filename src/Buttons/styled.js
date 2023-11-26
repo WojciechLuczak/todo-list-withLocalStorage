@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Buttons = styled.div`
  background-color: white;
@@ -15,5 +15,4 @@ export const Changer = styled.button`
     &:hover {
         color: rgb(0, 193, 193);
     }
-   
-    `;
+`;

@@ -1,4 +1,5 @@
-import "./index.css";
+import React from 'react';
+import { Buttons as StyledButtons, Changer } from './styled.js'; 
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => {
   if (tasks.length === 0) {
@@ -6,19 +7,18 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => {
   }
 
   return (
-    <div className="buttons">
-      <button onClick={toggleHideDone} className="buttons__changer">
+    <StyledButtons>
+      <Changer onClick={toggleHideDone}>
         {hideDone ? "Pokaż ukończone" : "Ukryj ukończone"}
-      </button>
+      </Changer>
 
-      <button 
-      onClick={setAllDone}
-        className="buttons__changer"
+      <Changer
+        onClick={setAllDone}
         disabled={tasks.every((task) => task.done)}
       >
         Ukończ wszystkie
-      </button>
-    </div>
+      </Changer>
+    </StyledButtons>
   );
 };
 
