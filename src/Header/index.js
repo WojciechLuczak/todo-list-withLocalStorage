@@ -1,3 +1,7 @@
-import "./index.css";
-const Header = ({ title }) => <h1 className="header">{title}</h1>;
-export default Header;
+import React from 'react';
+import { Header } from './styled.js'; 
+const HeaderComponent = ({ title }) => (
+  <Header>{title}</Header>
+);
+
+export default HeaderComponent;
